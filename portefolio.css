@@ -1,4 +1,4 @@
-:root {
+ :root {
     --primary-color: #2563eb;
     --secondary-color: #1e40af;
     --text-color: #1f2937;
@@ -23,7 +23,7 @@ body {
     color: var(--text-color);
 }
 
-/* Navbar */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -62,7 +62,7 @@ body {
     color: var(--primary-color);
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     padding: 8rem 5% 5rem;
@@ -113,7 +113,7 @@ body {
     background: var(--secondary-color);
 }
 
-/* About Section */
+
 .about {
     padding: 8rem 5%;
     background: var(--section-bg);
@@ -280,7 +280,7 @@ body {
     color: var(--light-text);
 }
 
-/* Footer */
+
 .footer {
     text-align: center;
     padding: 2rem;
@@ -288,7 +288,7 @@ body {
     color: white;
 }
 
-/* Responsive Design */
+
 @media (max-width: 968px) {
     .hero {
         flex-direction: column;
